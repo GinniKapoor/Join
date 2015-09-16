@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.materialdesign.activity.HomeFragment">
+ 
+ 
+    <ImageView 
+        android:id="@+id/home_profile_img"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ic_profile"/>
+    
+    
+    <TextView
+        android:id="@+id/label"
+        android:layout_below="@+id/home_profile_img"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="45dp"
+        android:text="HOME"
+        android:textStyle="bold"/>
+ 
+    <TextView
+        android:layout_below="@id/label"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome to the Home Page. This show the First page of the app." />
+    
+    
+    <TextView 
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="19dp"
+        android:text="First Name"/>
+    <EditText 
+        android:id="@+id/ed1"
+        android:layout_below="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_height="40dp"
+       android:layout_margin="10dp"
+       android:textSize="19dp"
+        android:inputType="text"/>
+    
+    
+      <TextView 
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/ed1"
+       android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="19dp"
+        android:text="Last Name"/>
+    <EditText 
+        android:id="@+id/ed2"
+        android:layout_below="@+id/tv2"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_margin="10dp"
+        android:layout_height="40dp"
+        android:textSize="19dp"
+       android:inputType="text"/>
+    
+    
+    
+    
+     <TextView 
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/ed2"
+       android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="19dp"
+        android:text="Password"/>
+    <EditText 
+        android:id="@+id/ed3"
+        android:layout_below="@+id/tv3"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_margin="10dp"
+        android:layout_height="40dp"
+        android:textSize="19dp"
+       android:inputType="textPassword"/>
+    
+    
+    
+    <TextView 
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/ed3"
+       android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="19dp"
+        android:text="State"/>
+    <EditText 
+        android:id="@+id/ed4"
+        android:layout_below="@+id/tv4"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_margin="10dp"
+        android:layout_height="40dp"
+        android:textSize="19dp"
+       android:inputType="text"/>
+    
+    
+    
+     <TextView 
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/ed4"
+       android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="19dp"
+        android:text="Contact Number"/>
+    <EditText 
+        android:id="@+id/ed5"
+        android:layout_below="@+id/tv5"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_margin="10dp"
+        android:layout_height="40dp"
+        android:textSize="19dp"
+       android:inputType="number"/>
+    
+    
+   <Button 
+        android:id="@+id/btn"
+        android:layout_below="@+id/ed5"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="#f2f2f2"
+        />
+    
+    
+   </RelativeLayout>
