@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.join.join.fragment.MeMyFragment">
+ 
+ 
+    <ImageView 
+        android:id="@+id/home_profile_img"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ic_profile"/>
+    
+    
+    <TextView
+        android:id="@+id/label"
+        android:layout_below="@+id/home_profile_img"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="45dp"
+        android:text="HOME"
+        android:textStyle="bold"/>
+ 
+    <TextView
+        android:layout_below="@id/label"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome to theMy Activity. This show the First page of the app." />
+    
+    
+    
+   </RelativeLayout>

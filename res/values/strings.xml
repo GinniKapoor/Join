@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Material Design</string>
+    <string name="app_name">Join</string>
     <string name="action_settings">Settings</string>
     <string name="action_search">Search</string>
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
  
-    <string name="nav_item_home">Home</string>
-    <string name="nav_item_friends">Employee</string>
-    <string name="nav_item_notifications">Timesheet</string>
-      <string name="nav_item_attendence">My Attendence</string>
-      <string name="nav_item_account">My Account</string>
+    <string name="nav_item_me_my_activity">Me and My Activities</string>
+    <string name="nav_item_discover_activity">Discover Activities</string>
+    <string name="nav_item_chat">Chat</string>
+      <string name="nav_item_find_activity">Find Activities</string>
+      <string name="nav_item_create_activity">Create Activity</string>
+      <string name="nav_item_select_people">Select People</string>
+      <string name="nav_item_my_preferences">My Preferences</string>
+      <string name="nav_item_contact_us">Contact Us</string>
  
     <!-- navigation drawer item labels  -->
     <string-array name="nav_drawer_labels">
-        <item>@string/nav_item_home</item>
-        <item>@string/nav_item_friends</item>
-        <item>@string/nav_item_notifications</item>
-         <item>@string/nav_item_attendence</item>
-          <item>@string/nav_item_account</item>
+        <item>@string/nav_item_me_my_activity</item>
+        <item>@string/nav_item_discover_activity</item>
+        <item>@string/nav_item_chat</item>
+         <item>@string/nav_item_find_activity</item>
+          <item>@string/nav_item_create_activity</item>
+           <item>@string/nav_item_select_people</item>
+           <item>@string/nav_item_my_preferences</item>
+           <item>@string/nav_item_contact_us</item>
     </string-array>
  
-    <string name="title_account">My Account</string>
-    <string name="title_attendance">My Attendence</string>
-    <string name="title_messages">Timesheet</string>
-    <string name="title_friends">Employees</string>
-    <string name="title_home">Home</string>
+    <string name="title_contact_us">Contact Us</string>
+    <string name="title_my_preferences">My Preferences</string>
+    <string name="title_select_people">Select People</string>
+    <string name="title_create_activity">Create Activity</string>
+    <string name="title_find_activity">Find Activities</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_discover_activity">Discover Activities</string>
+    <string name="title_me_my_activity">Me and My Activity</string>
 </resources>
