@@ -2,21 +2,41 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:clickable="true">
-    
- 
+    android:clickable="true" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" />
+
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/image"
+        android:background="#018E74"
+        android:paddingBottom="10dp"
         android:paddingLeft="30dp"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:textSize="23dp"
-        android:layout_marginTop="20dp"
-        android:background="#018E74"
         android:textColor="#ffffff"
+        android:textSize="23dp"
         android:textStyle="bold" />
- 
+
+    <RelativeLayout
+        android:id="@+id/devider"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/title"
+        android:layout_margin="1dp"
+        android:background="#fff"
+        android:padding="1dp" >
+    </RelativeLayout>
+
 </RelativeLayout>

@@ -1,6 +1,7 @@
 package com.join.join.fragment;
 
 	import android.content.Context;
+import android.media.Image;
 	import android.os.Bundle;
 	import android.support.v4.app.Fragment;
 	import android.support.v4.widget.DrawerLayout;
@@ -18,7 +19,8 @@ package com.join.join.fragment;
 	import java.util.List;
 	 
 	
-import com.example.materialdesign.R;
+
+import com.join.join.R;
 import com.join.join.adapter.NavigationDrawerAdapter;
 import com.join.join.model.NavDrawerItem;
 	 
@@ -54,8 +56,9 @@ import com.join.join.model.NavDrawerItem;
 	        }
 	        return data;
 	  }
-	 
-	   @Override
+	    
+	  
+	  @Override
 	    public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
 	 

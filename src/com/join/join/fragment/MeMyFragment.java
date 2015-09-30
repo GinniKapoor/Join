@@ -1,6 +1,8 @@
 package com.join.join.fragment;
 
-import com.example.materialdesign.R;
+
+
+import com.join.join.R;
 
 import android.app.Activity;
 import android.os.Bundle;

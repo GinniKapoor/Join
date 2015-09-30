@@ -12,7 +12,8 @@ import android.widget.TextView;
 import java.util.Collections;
 import java.util.List;
 
-import com.example.materialdesign.R;
+
+import com.join.join.R;
 import com.join.join.model.NavDrawerItem;
  
 public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDrawerAdapter.MyViewHolder> {
@@ -49,12 +50,17 @@ public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDraw
         return data.size();
     }
  
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
     class MyViewHolder extends RecyclerView.ViewHolder {
         TextView title;
-        ImageView image;
+        ImageView imgicon;
         public MyViewHolder(View itemView) {
             super(itemView);
             title = (TextView) itemView.findViewById(R.id.title);
+            imgicon= (ImageView) itemView.findViewById(R.id.icon);
            
         }
     }

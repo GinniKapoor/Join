@@ -1,13 +1,14 @@
 package com.join.join.fragment;
 
-	import com.example.materialdesign.R;
 
-	import android.app.Activity;
+	import com.join.join.R;
+
+import android.app.Activity;
 	import android.os.Bundle;
 	import android.support.v4.app.Fragment;
 	import android.view.LayoutInflater;
 	import android.view.View;
-	import android.view.ViewGroup;
+import android.view.ViewGroup;
 	 
 	 
 	public class CreateFragment extends Fragment {

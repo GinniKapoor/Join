@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Join</string>
     <string name="action_settings">Settings</string>
     <string name="action_search">Search</string>
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
- 
     <string name="nav_item_me_my_activity">Me and My Activities</string>
     <string name="nav_item_discover_activity">Discover Activities</string>
     <string name="nav_item_chat">Chat</string>
-      <string name="nav_item_find_activity">Find Activities</string>
-      <string name="nav_item_create_activity">Create Activity</string>
-      <string name="nav_item_select_people">Select People</string>
-      <string name="nav_item_my_preferences">My Preferences</string>
-      <string name="nav_item_contact_us">Contact Us</string>
- 
-    <!-- navigation drawer item labels  -->
+    <string name="nav_item_find_activity">Find Activities</string>
+    <string name="nav_item_create_activity">Create Activity</string>
+    <string name="nav_item_select_people">Select People</string>
+    <string name="nav_item_my_preferences">My Preferences</string>
+    <string name="nav_item_contact_us">Contact Us</string>
+
+    <!-- navigation drawer item labels -->
     <string-array name="nav_drawer_labels">
         <item>@string/nav_item_me_my_activity</item>
         <item>@string/nav_item_discover_activity</item>
         <item>@string/nav_item_chat</item>
-         <item>@string/nav_item_find_activity</item>
-          <item>@string/nav_item_create_activity</item>
-           <item>@string/nav_item_select_people</item>
-           <item>@string/nav_item_my_preferences</item>
-           <item>@string/nav_item_contact_us</item>
+        <item>@string/nav_item_find_activity</item>
+        <item>@string/nav_item_create_activity</item>
+        <item>@string/nav_item_select_people</item>
+        <item>@string/nav_item_my_preferences</item>
+        <item>@string/nav_item_contact_us</item>
     </string-array>
- 
+
     <string name="title_contact_us">Contact Us</string>
     <string name="title_my_preferences">My Preferences</string>
     <string name="title_select_people">Select People</string>
@@ -35,4 +35,20 @@
     <string name="title_chat">Chat</string>
     <string name="title_discover_activity">Discover Activities</string>
     <string name="title_me_my_activity">Me and My Activity</string>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/user_icon</item>
+        <item>@drawable/run_people</item>
+        <item>@drawable/user_icon</item>
+        <item>@drawable/search_icon</item>
+        <item>@drawable/plus_icon</item>
+        <item>@drawable/select_people_icon</item>
+        <item>@drawable/setting_icon</item>
+        <item>@drawable/contact_icon</item>
+    </array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+
 </resources>
